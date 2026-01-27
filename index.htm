@@ -46,7 +46,7 @@
             align-items: center;
             text-align: center;
             box-shadow: 0 10px 40px rgba(0,0,0,0.2);
-            overflow: hidden;
+            overflow: auto; /* Добавлен скролл при необходимости */
             transition: transform 0.5s ease, opacity 0.5s ease;
         }
 
@@ -131,6 +131,7 @@
             justify-content: center;
             align-items: center;
             padding: 20px;
+            padding-bottom: 70px; /* Отступ сверху для навигации */
         }
 
         h1 {
@@ -323,16 +324,19 @@
         /* Навигационные кнопки */
         .nav-buttons {
             position: absolute;
-            bottom: 20px;
+            bottom: 15px; /* Уменьшенный отступ */
             left: 50%;
             transform: translateX(-50%);
             display: flex;
             gap: 15px;
             z-index: 20;
+            background: rgba(255,255,255,0.9); /* Фон для контраста */
+            padding: 5px;
+            border-radius: 30px;
         }
 
         .nav-btn {
-            background: rgba(255,255,255,0.9);
+            background: transparent;
             border: none;
             border-radius: 50%;
             width: 50px;
@@ -347,7 +351,7 @@
         }
 
         .nav-btn:hover {
-            background: white;
+            background: rgba(255,255,255,1);
             transform: scale(1.1);
         }
 
@@ -377,6 +381,49 @@
 
         .slide-8 { background: linear-gradient(135deg, #834d9b 0%, #d04ed6 100%); color: white; }
         .slide-8 h1, .slide-8 p, .slide-8 .welcome-text { color: white; }
+
+        /* Адаптация для мобильных устройств */
+        @media (max-width: 768px) {
+            .presentation-container {
+                height: 80vh;
+                padding: 10px;
+            }
+            
+            .slide {
+                padding: 25px 15px;
+            }
+            
+            .content {
+                padding-bottom: 80px; /* Больше отступа для навигации на мобилах */
+            }
+            
+            h1 {
+                font-size: 32px;
+            }
+            
+            h2 {
+                font-size: 26px;
+            }
+            
+            p, .subtitle {
+                font-size: 18px;
+            }
+            
+            .feature, .search-text, .search-result {
+                font-size: 18px;
+            }
+            
+            .nav-buttons {
+                bottom: 10px; /* Еще ближе к краю */
+                padding: 8px;
+            }
+            
+            .nav-btn {
+                width: 45px;
+                height: 45px;
+                font-size: 20px;
+            }
+        }
     </style>
 </head>
 <body>
@@ -640,3 +687,4 @@
 
 </body>
 </html>
+
