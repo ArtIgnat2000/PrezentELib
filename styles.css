@@ -409,7 +409,7 @@ p {
     }
     
     .content {
-        padding: 10px 10px 80px;
+        padding: 10px 5px 80px;
         overflow-y: auto;
         -webkit-overflow-scrolling: touch;
     }
@@ -435,13 +435,13 @@ p {
     }
     
     h1 {
-        font-size: 1.6rem !important;
+        font-size: 1.4rem !important;
         margin-bottom: 0.5rem !important;
     }
     
     h2 {
-        font-size: 1.4rem !important;
-        margin-bottom: 1rem !important;
+        font-size: 1.2rem !important;
+        margin-bottom: 0.8rem !important;
     }
     
     p, .subtitle {
@@ -519,8 +519,8 @@ p {
     
     /* Slide 2 - Что это такое */
     .slide-2 h2 {
-        font-size: 1.4rem !important;
-        margin-bottom: 0.8rem !important;
+        font-size: 1.1rem !important;
+        margin-bottom: 0.6rem !important;
     }
     
     .slide-2 p[style*="font-size: 1.6rem"] {
@@ -540,8 +540,8 @@ p {
     
     /* Slide 3 - Возможности */
     .slide-3 h2 {
-        font-size: 1.4rem !important;
-        margin-bottom: 1rem !important;
+        font-size: 1.1rem !important;
+        margin-bottom: 0.8rem !important;
     }
     
     .slide-3 div[style*="display: flex"] > div {
@@ -556,8 +556,8 @@ p {
     
     /* Slide 4 - Три крутые фишки */
     .slide-4 h2 {
-        font-size: 1.4rem !important;
-        margin-bottom: 1rem !important;
+        font-size: 1.1rem !important;
+        margin-bottom: 0.8rem !important;
     }
     
     .slide-4 div[style*="display: flex"] > div {
@@ -572,8 +572,8 @@ p {
     
     /* Slide 5 - Видишь свой прогресс */
     .slide-5 h2 {
-        font-size: 1.3rem !important;
-        margin-bottom: 0.8rem !important;
+        font-size: 1.1rem !important;
+        margin-bottom: 0.6rem !important;
     }
     
     .slide-5 .content > div {
@@ -600,8 +600,8 @@ p {
     
     /* Slide 7 - Работает везде */
     .slide-7 h2 {
-        font-size: 1.3rem !important;
-        margin-bottom: 0.6rem !important;
+        font-size: 1.1rem !important;
+        margin-bottom: 0.5rem !important;
     }
     
     .slide-7 p[style*="font-size: 1.3rem"] {
@@ -628,8 +628,8 @@ p {
     
     /* Slide 8 - Главное — это просто */
     .slide-8 h2 {
-        font-size: 1.3rem !important;
-        margin-bottom: 1rem !important;
+        font-size: 1.1rem !important;
+        margin-bottom: 0.8rem !important;
     }
     
     .slide-8 div[style*="display: flex"] > div {
