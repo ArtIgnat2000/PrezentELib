@@ -124,8 +124,8 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 20px;
-    padding-bottom: 70px; /* Отступ сверху для навигации */
+    padding: 60px 20px 80px; /* Отступы сверху и снизу */
+    overflow-y: auto; /* Скролл если не влезает */
 }
 
 h1 {
@@ -378,43 +378,127 @@ p {
 
 /* Адаптация для мобильных устройств */
 @media (max-width: 768px) {
+    body {
+        overflow: hidden;
+    }
+    
     .presentation-container {
-        height: 80vh;
-        padding: 10px;
+        height: 100vh;
+        max-width: 100%;
+        border-radius: 0;
     }
     
     .slide {
-        padding: 25px 15px;
+        padding: 15px;
+        border-radius: 0;
     }
     
     .content {
-        padding-bottom: 80px; /* Больше отступа для навигации на мобилах */
+        padding: 70px 15px 90px; /* Больше отступов сверху и снизу */
+        overflow-y: auto;
+        -webkit-overflow-scrolling: touch;
+    }
+    
+    .slide-number {
+        top: 15px;
+        right: 15px;
+        width: 35px;
+        height: 35px;
+        font-size: 18px;
     }
     
     h1 {
-        font-size: 32px;
+        font-size: 2rem !important;
+        margin-bottom: 1rem !important;
     }
     
     h2 {
-        font-size: 26px;
+        font-size: 1.75rem !important;
+        margin-bottom: 1.5rem !important;
     }
     
     p, .subtitle {
-        font-size: 18px;
+        font-size: 1rem !important;
     }
     
-    .feature, .search-text, .search-result {
-        font-size: 18px;
+    /* Переопределяем inline стили для мобильных */
+    .slide-1 h1 {
+        font-size: 2.5rem !important;
     }
     
+    .slide-1 .subtitle {
+        font-size: 1.3rem !important;
+    }
+    
+    /* Уменьшаем размеры блоков с градиентами */
+    .content > div[style*="linear-gradient"] {
+        padding: 1rem !important;
+        font-size: 1rem !important;
+        margin: 0.5rem 0 !important;
+    }
+    
+    /* Уменьшаем размеры текста внутри градиентных блоков */
+    .content div[style*="linear-gradient"] p,
+    .content div[style*="linear-gradient"] span,
+    .content div[style*="linear-gradient"] div {
+        font-size: 0.9rem !important;
+    }
+    
+    /* Карточки возможностей */
+    .content div[style*="display: flex"] {
+        gap: 1rem !important;
+    }
+    
+    .content div[style*="display: flex"] > div {
+        padding: 1rem !important;
+    }
+    
+    /* Иконки и эмодзи */
+    .content span[style*="font-size: 3"] {
+        font-size: 2rem !important;
+    }
+    
+    /* QR коды */
+    .content img[src*="qr_"] {
+        width: 120px !important;
+        height: 120px !important;
+    }
+    
+    /* Логотип школы */
+    .content img[src*="logo_"] {
+        width: 40px !important;
+        height: 40px !important;
+    }
+    
+    /* SVG иконки */
+    .content img[src$=".svg"] {
+        width: 50px !important;
+        height: 50px !important;
+    }
+    
+    /* Навигация */
     .nav-buttons {
-        bottom: 10px; /* Еще ближе к краю */
-        padding: 8px;
+        bottom: 15px;
+        padding: 5px 10px;
     }
     
     .nav-btn {
-        width: 45px;
-        height: 45px;
-        font-size: 20px;
+        width: 40px;
+        height: 40px;
+        font-size: 18px;
+    }
+    
+    /* Декорации - делаем меньше и менее заметными */
+    .decoration-1,
+    .decoration-2 {
+        width: 100px !important;
+        height: 100px !important;
+        opacity: 0.08 !important;
+    }
+    
+    .decoration-star,
+    .decoration-book {
+        font-size: 30px !important;
+        opacity: 0.15 !important;
     }
 }
