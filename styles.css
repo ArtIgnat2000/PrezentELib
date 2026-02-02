@@ -62,20 +62,22 @@ body {
 /* Нумерация слайдов */
 .slide-number {
     position: absolute;
-    top: 20px;
-    right: 25px;
-    font-size: 26px;
+    bottom: 35px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 18px;
     font-weight: bold;
     color: white;
-    background: #ff6b6b;
-    width: 45px;
-    height: 45px;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    min-width: 50px;
+    height: 50px;
     border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
-    z-index: 10;
+    box-shadow: 0 6px 20px rgba(102, 126, 234, 0.4), 0 2px 8px rgba(0,0,0,0.2);
+    z-index: 21;
+    border: 3px solid white;
 }
 
 /* Цветные декоративные элементы */
@@ -126,6 +128,12 @@ body {
     align-items: center;
     padding: 60px 20px 80px; /* Отступы сверху и снизу */
     overflow-y: auto; /* Скролл если не влезает */
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none; /* IE and Edge */
+}
+
+.content::-webkit-scrollbar {
+    display: none; /* Chrome, Safari, Opera */
 }
 
 h1 {
@@ -318,15 +326,17 @@ p {
 /* Навигационные кнопки */
 .nav-buttons {
     position: absolute;
-    bottom: 15px; /* Уменьшенный отступ */
+    bottom: 30px;
     left: 50%;
     transform: translateX(-50%);
     display: flex;
-    gap: 15px;
+    gap: 100px;
     z-index: 20;
-    background: rgba(255,255,255,0.9); /* Фон для контраста */
-    padding: 5px;
-    border-radius: 30px;
+    background: linear-gradient(135deg, rgba(102, 126, 234, 0.95) 0%, rgba(118, 75, 162, 0.95) 100%);
+    padding: 8px 20px;
+    border-radius: 50px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.3);
+    backdrop-filter: blur(10px);
 }
 
 .nav-btn {
@@ -335,9 +345,7 @@ p {
     border-radius: 50%;
     width: 50px;
     height: 50px;
-    font-size: 24px;
-    cursor: pointer;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    color: white;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -345,6 +353,12 @@ p {
 }
 
 .nav-btn:hover {
+    background: rgba(255,255,255,0.2);
+    transform: scale(1.15);
+}
+
+.nav-btn:active {
+    transform: scale(0.95
     background: rgba(255,255,255,1);
     transform: scale(1.1);
 }
@@ -394,17 +408,18 @@ p {
     }
     
     .content {
-        padding: 70px 15px 90px; /* Больше отступов сверху и снизу */
+        padding: 70px 15px 100px;
         overflow-y: auto;
-        -webkit-overflow-scrolling: touch;
-    }
-    
-    .slide-number {
-        top: 15px;
-        right: 15px;
+        -webkit-o0px;
+        width: 45px;
+        height: 45px;
+        font-size: 16px;
+        z-index: 21;
+        border: 2px solid whitex;
         width: 35px;
         height: 35px;
-        font-size: 18px;
+        font-size: 16px;
+        z-index: 19;
     }
     
     h1 {
@@ -478,13 +493,14 @@ p {
     
     /* Навигация */
     .nav-buttons {
-        bottom: 15px;
-        padding: 5px 10px;
+        botto80px;
+        padding: 6px 18px;
     }
     
     .nav-btn {
-        width: 40px;
-        height: 40px;
+        width: 45px;
+        height: 45px;
+        font-size: 20
         font-size: 18px;
     }
     
