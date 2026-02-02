@@ -599,7 +599,7 @@ p {
     
     /* Slide 7 - Работает везде */
     .slide-7 h2 {
-        font-size: 1.1rem !important;
+        font-size: 0.95rem !important;
         margin-bottom: 0.5rem !important;
     }
     
@@ -627,7 +627,7 @@ p {
     
     /* Slide 8 - Главное — это просто */
     .slide-8 h2 {
-        font-size: 1.1rem !important;
+        font-size: 0.95rem !important;
         margin-bottom: 0.8rem !important;
     }
     
