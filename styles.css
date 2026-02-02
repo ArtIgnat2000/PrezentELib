@@ -476,6 +476,240 @@ p {
         font-size: 0.85rem !important;
     }
     
+    /* Слайд 6: Поиск и фильтры */
+    .slide-6 h2 {
+        font-size: 1.2rem !important;
+        margin-bottom: 1rem !important;
+    }
+    
+    .slide-6 .content > div[style*="linear-gradient"] {
+        padding: 1rem !important;
+        margin-bottom: 1rem !important;
+    }
+    
+    .slide-6 div[style*="font-size: 2.2rem"] {
+        font-size: 1.4rem !important;
+    }
+    
+    .slide-6 div[style*="font-size: 1.8rem"] {
+        font-size: 1.2rem !important;
+    }
+    
+    .slide-6 div[style*="font-size: 1.4rem"] {
+        font-size: 0.95rem !important;
+    }
+    
+    .slide-6 div[style*="font-size: 1.3rem"] {
+        font-size: 0.9rem !important;
+    }
+    
+    .slide-6 div[style*="font-size: 1.2rem"] {
+        font-size: 0.85rem !important;
+    }
+    
+    /* Slide 2 - Что это такое */
+    .slide-2 h2 {
+        font-size: 1.8rem !important;
+    }
+    
+    .slide-2 p[style*="font-size: 1.6rem"] {
+        font-size: 1.1rem !important;
+    }
+    
+    .slide-2 p[style*="font-size: 1.5rem"] {
+        font-size: 1rem !important;
+    }
+    
+    /* Slide 3 - Возможности */
+    .slide-3 h2 {
+        font-size: 1.6rem !important;
+        margin-bottom: 1.5rem !important;
+    }
+    
+    .slide-3 div[style*="display: flex"] > div {
+        padding: 1rem !important;
+    }
+    
+    .slide-3 span[style*="font-size: 1.5rem"] {
+        font-size: 1rem !important;
+    }
+    
+    /* Slide 4 - Три крутые фишки */
+    .slide-4 h2 {
+        font-size: 1.6rem !important;
+        margin-bottom: 1.5rem !important;
+    }
+    
+    .slide-4 div[style*="display: flex"] > div {
+        padding: 1rem !important;
+    }
+    
+    .slide-4 span[style*="font-size: 1.4rem"] {
+        font-size: 0.95rem !important;
+    }
+    
+    /* Slide 5 - Видишь свой прогресс */
+    .slide-5 h2 {
+        font-size: 1.5rem !important;
+        margin-bottom: 1rem !important;
+    }
+    
+    .slide-5 .content > div {
+        padding: 1.2rem 1.5rem !important;
+    }
+    
+    .slide-5 p[style*="font-size: 2rem"] {
+        font-size: 1.3rem !important;
+        margin-bottom: 1rem !important;
+    }
+    
+    .slide-5 div[style*="height: 60px"] {
+        height: 50px !important;
+    }
+    
+    .slide-5 div[style*="font-size: 1.8rem"] {
+        font-size: 1.2rem !important;
+    }
+    
+    .slide-5 p[style*="font-size: 1.5rem"] {
+        font-size: 1rem !important;
+        margin-top: 1rem !important;
+    }
+    
+    /* Slide 7 - Работает везде */
+    .slide-7 h2 {
+        font-size: 1.6rem !important;
+        margin-bottom: 0.8rem !important;
+    }
+    
+    .slide-7 p[style*="font-size: 1.3rem"] {
+        font-size: 0.95rem !important;
+        margin-bottom: 1.2rem !important;
+    }
+    
+    .slide-7 div[style*="font-size: 1.4rem"] {
+        font-size: 1rem !important;
+    }
+    
+    .slide-7 img {
+        width: 40px !important;
+        height: 40px !important;
+    }
+    
+    /* Slide 8 - Главное — это просто */
+    .slide-8 h2 {
+        font-size: 1.5rem !important;
+        margin-bottom: 1.2rem !important;
+    }
+    
+    .slide-8 div[style*="display: flex"] > div {
+        padding: 1rem 1.2rem !important;
+    }
+    
+    .slide-8 span[style*="font-size: 2.8rem"] {
+        font-size: 1.8rem !important;
+    }
+    
+    .slide-8 span[style*="font-size: 1.3rem"] {
+        font-size: 0.9rem !important;
+    }
+    
+    .slide-8 strong[style*="font-size: 1.5rem"] {
+        font-size: 1rem !important;
+    }
+    
+    .slide-8 div[style*="font-size: 1.6rem"] {
+        font-size: 1.1rem !important;
+    }
+    
+    /* Slide 9 - Благодарности */
+    .slide-9 h2 {
+        font-size: 1.8rem !important;
+    }
+    
+    .slide-9 .feature {
+        padding: 1rem !important;
+        gap: 1rem !important;
+    }
+    
+    .slide-9 .feature-icon {
+        font-size: 2rem !important;
+    }
+    
+    .slide-9 div[style*="font-size: 1.5rem"] {
+        font-size: 1.1rem !important;
+        margin-bottom: 0.3rem !important;
+    }
+    
+    .slide-9 div[style*="font-size: 1rem"] {
+        font-size: 0.85rem !important;
+    }
+    
+    .slide-9 img[src*="logo_"] {
+        width: 45px !important;
+        height: 45px !important;
+    }
+    
+    .slide-9 div[style*="width: 80px"] {
+        width: 60px !important;
+        height: 60px !important;
+    }
+    
+    .slide-9 div[style*="width: 80px"] span {
+        font-size: 1.8rem !important;
+    }
+    
+    .slide-9 p[style*="font-size: 0.9rem"] {
+        font-size: 0.75rem !important;
+    }
+    
+    /* Slide 10 - Спасибо за внимание */
+    .slide-10 h1 {
+        font-size: 1.8rem !important;
+        margin-bottom: 0.8rem !important;
+    }
+    
+    .slide-10 p[style*="font-size: 1.8rem"] {
+        font-size: 1.1rem !important;
+        margin-bottom: 1.2rem !important;
+    }
+    
+    .slide-10 div[style*="display: flex"] {
+        flex-direction: column !important;
+        gap: 1.5rem !important;
+    }
+    
+    .slide-10 div[style*="padding: 1.5rem"] {
+        padding: 1rem !important;
+    }
+    
+    .slide-10 img[src*="qr_"] {
+        width: 120px !important;
+        height: 120px !important;
+        padding: 8px !important;
+    }
+    
+    .slide-10 p[style*="font-size: 1.2rem"] {
+        font-size: 0.95rem !important;
+    }
+    
+    .slide-10 div[style*="font-size: 2rem"] {
+        font-size: 1.3rem !important;
+    }
+    
+    .slide-10 div[style*="font-size: 1.2rem"] {
+        font-size: 0.9rem !important;
+    }
+    
+    .slide-10 div[style*="font-size: 0.95rem"] {
+        font-size: 0.8rem !important;
+    }
+    
+    .slide-10 .welcome-text {
+        font-size: 1rem !important;
+        margin-top: 1rem !important;
+    }
+    
     /* Уменьшаем размеры блоков с градиентами */
     .content > div[style*="linear-gradient"] {
         padding: 0.8rem !important;
