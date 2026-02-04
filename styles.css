@@ -368,26 +368,28 @@ p {
 .slide-1 .decoration-1 { background: rgba(255,255,255,0.2); }
 .slide-1 .decoration-2 { background: rgba(255,255,255,0.15); }
 
-.slide-2 { background: linear-gradient(135deg, #f6d365 0%, #fda085 100%); }
-.slide-2 h2 { color: #2d3748; }
-.slide-2 .decoration-1 { background: rgba(255,255,255,0.3); }
+.slide-2 { background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%); }
 
-.slide-3 { background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%); }
-.slide-3 .feature { background: white; color: #2d3748; }
+.slide-3 { background: linear-gradient(135deg, #f6d365 0%, #fda085 100%); }
+.slide-3 h2 { color: #2d3748; }
+.slide-3 .decoration-1 { background: rgba(255,255,255,0.3); }
 
-.slide-4 { background: linear-gradient(135deg, #d4fc79 0%, #96e6a1 100%); }
-.slide-4 .progress-bar { background: linear-gradient(90deg, #00b894 0%, #00cec9 100%); }
+.slide-4 { background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%); }
+.slide-4 .feature { background: white; color: #2d3748; }
 
-.slide-5 { background: linear-gradient(135deg, #a1c4fd 0%, #c2e9fb 100%); }
-.slide-5 .search-example { background: white; }
+.slide-5 { background: linear-gradient(135deg, #d4fc79 0%, #96e6a1 100%); }
+.slide-5 .progress-bar { background: linear-gradient(90deg, #00b894 0%, #00cec9 100%); }
 
-.slide-6 { background: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%); }
+.slide-6 { background: linear-gradient(135deg, #a1c4fd 0%, #c2e9cb 100%); }
+.slide-6 .search-example { background: white; }
 
-.slide-7 { background: linear-gradient(135deg, #ee9ca7 0%, #ffdde1 100%); }
-.slide-7 .main-points { background: white; color: #2d3748; }
+.slide-7 { background: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%); }
 
-.slide-8 { background: linear-gradient(135deg, #834d9b 0%, #d04ed6 100%); color: white; }
-.slide-8 h1, .slide-8 p, .slide-8 .welcome-text { color: white; }
+.slide-8 { background: linear-gradient(135deg, #ee9ca7 0%, #ffdde1 100%); }
+.slide-8 .main-points { background: white; color: #2d3748; }
+
+.slide-9 { background: linear-gradient(135deg, #834d9b 0%, #d04ed6 100%); color: white; }
+.slide-9 h1, .slide-9 p, .slide-9 .welcome-text { color: white; }
 
 /* Адаптация для мобильных устройств */
 @media (max-width: 768px) {
@@ -475,6 +477,61 @@ p {
         font-size: 0.85rem !important;
     }
     
+    /* Slide 2 - Как выглядит приложение */
+    .slide-2 h2 {
+        font-size: 0.95rem !important;
+        margin-bottom: 0.3rem !important;
+    }
+    
+    .slide-2 p[style*="font-size: 0.95rem"] {
+        font-size: 0.7rem !important;
+        margin-bottom: 0.5rem !important;
+    }
+    
+    .slide-2 div[style*="padding: 0.8rem"] {
+        padding: 0.5rem !important;
+        max-width: 85% !important;
+    }
+    
+    .slide-2 img {
+        max-height: 40vh !important;
+        border-radius: 6px !important;
+    }
+    
+    .slide-2 div[style*="gap: 0.8rem"] {
+        gap: 0.4rem !important;
+        margin-top: 0.5rem !important;
+    }
+    
+    .slide-2 div[style*="padding: 0.4rem 1rem"] {
+        padding: 0.3rem 0.7rem !important;
+    }
+    
+    .slide-2 p[style*="font-size: 0.8rem"] {
+        font-size: 0.65rem !important;
+    }
+    
+    /* Slide 3 - Что это такое */
+    .slide-3 h2 {
+        font-size: 1.1rem !important;
+        margin-bottom: 0.6rem !important;
+    }
+    
+    .slide-3 p[style*="font-size: 1.2rem"] {
+        font-size: 0.9rem !important;
+        margin-bottom: 1rem !important;
+    }
+    
+    .slide-3 .content > div[style*="linear-gradient"] {
+        padding: 1rem !important;
+        margin-top: 1rem !important;
+    }
+    
+    .slide-3 p[style*="font-size: 1.1rem"] {
+        font-size: 0.85rem !important;
+        line-height: 1.4 !important;
+    }
+    
     /* Слайд 6: Поиск и фильтры */
     .slide-6 h2 {
         font-size: 1.1rem !important;
@@ -516,44 +573,7 @@ p {
         margin-bottom: 0.6rem !important;
     }
     
-    /* Slide 2 - Что это такое */
-    .slide-2 h2 {
-        font-size: 1.1rem !important;
-        margin-bottom: 0.6rem !important;
-    }
-    
-    .slide-2 p[style*="font-size: 1.6rem"] {
-        font-size: 0.9rem !important;
-        margin-bottom: 1rem !important;
-    }
-    
-    .slide-2 .content > div[style*="linear-gradient"] {
-        padding: 1rem !important;
-        margin-top: 1rem !important;
-    }
-    
-    .slide-2 p[style*="font-size: 1.5rem"] {
-        font-size: 0.85rem !important;
-        line-height: 1.4 !important;
-    }
-    
-    /* Slide 3 - Возможности */
-    .slide-3 h2 {
-        font-size: 1.1rem !important;
-        margin-bottom: 0.8rem !important;
-    }
-    
-    .slide-3 div[style*="display: flex"] > div {
-        padding: 0.8rem !important;
-        gap: 0.8rem !important;
-    }
-    
-    .slide-3 span[style*="font-size: 1.5rem"] {
-        font-size: 0.85rem !important;
-        line-height: 1.3 !important;
-    }
-    
-    /* Slide 4 - Три крутые фишки */
+    /* Slide 4 - Возможности */
     .slide-4 h2 {
         font-size: 0.95rem !important;
         margin-bottom: 0.8rem !important;
