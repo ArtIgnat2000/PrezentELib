@@ -375,21 +375,27 @@ p {
 .slide-3 .decoration-1 { background: rgba(255,255,255,0.3); }
 
 .slide-4 { background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%); }
-.slide-4 .feature { background: white; color: #2d3748; }
 
-.slide-5 { background: linear-gradient(135deg, #d4fc79 0%, #96e6a1 100%); }
-.slide-5 .progress-bar { background: linear-gradient(90deg, #00b894 0%, #00cec9 100%); }
+.slide-5 { background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%); }
+.slide-5 .feature { background: white; color: #2d3748; }
 
-.slide-6 { background: linear-gradient(135deg, #a1c4fd 0%, #c2e9cb 100%); }
-.slide-6 .search-example { background: white; }
+.slide-6 { background: linear-gradient(135deg, #d4fc79 0%, #96e6a1 100%); }
+.slide-6 .progress-bar { background: linear-gradient(90deg, #00b894 0%, #00cec9 100%); }
 
-.slide-7 { background: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%); }
+.slide-7 { background: linear-gradient(135deg, #a1c4fd 0%, #c2e9cb 100%); }
+.slide-7 .search-example { background: white; }
 
-.slide-8 { background: linear-gradient(135deg, #ee9ca7 0%, #ffdde1 100%); }
-.slide-8 .main-points { background: white; color: #2d3748; }
+.slide-8 { background: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%); }
 
-.slide-9 { background: linear-gradient(135deg, #834d9b 0%, #d04ed6 100%); color: white; }
-.slide-9 h1, .slide-9 p, .slide-9 .welcome-text { color: white; }
+.slide-9 { background: linear-gradient(135deg, #ee9ca7 0%, #ffdde1 100%); }
+.slide-9 .main-points { background: white; color: #2d3748; }
+
+.slide-10 { background: linear-gradient(135deg, #a1c4fd 0%, #c2e9cb 100%); }
+
+.slide-11 { background: linear-gradient(135deg, #ee9ca7 0%, #ffdde1 100%); }
+
+.slide-12 { background: linear-gradient(135deg, #834d9b 0%, #d04ed6 100%); color: white; }
+.slide-12 h1, .slide-12 p, .slide-12 .welcome-text { color: white; }
 
 /* Адаптация для мобильных устройств */
 @media (max-width: 768px) {
@@ -532,93 +538,135 @@ p {
         line-height: 1.4 !important;
     }
     
-    /* Слайд 6: Поиск и фильтры */
-    .slide-6 h2 {
-        font-size: 1.1rem !important;
-        margin-bottom: 0.8rem !important;
-    }
-    
-    .slide-6 .content > div[style*="linear-gradient"] {
-        padding: 0.7rem !important;
-        margin-bottom: 0.7rem !important;
-    }
-    
-    .slide-6 div[style*="font-size: 1.6rem"] {
-        font-size: 1.1rem !important;
-        margin-bottom: 0.5rem !important;
-    }
-    
-    .slide-6 div[style*="font-size: 1.4rem"] {
-        font-size: 1rem !important;
-        margin-bottom: 0.6rem !important;
-    }
-    
-    .slide-6 div[style*="font-size: 1rem"] {
-        font-size: 0.75rem !important;
-        margin-bottom: 0.4rem !important;
-    }
-    
-    .slide-6 div[style*="padding: 0.6rem 1rem"] {
-        padding: 0.5rem 0.8rem !important;
-        font-size: 0.8rem !important;
-    }
-    
-    .slide-6 div[style*="padding: 0.5rem 1.2rem"] {
-        padding: 0.4rem 0.8rem !important;
-        font-size: 0.75rem !important;
-    }
-    
-    .slide-6 div[style*="gap: 0.6rem"] {
-        gap: 0.4rem !important;
-        margin-bottom: 0.6rem !important;
-    }
-    
-    /* Slide 4 - Возможности */
+    /* Slide 4 - Читать или Слушать */
     .slide-4 h2 {
         font-size: 0.95rem !important;
         margin-bottom: 0.8rem !important;
     }
     
-    .slide-4 div[style*="display: flex"] > div {
-        padding: 0.8rem !important;
-        gap: 0.8rem !important;
+    .slide-4 p[style*="font-size: 1.1rem"] {
+        font-size: 0.8rem !important;
+        margin-bottom: 0.8rem !important;
     }
     
-    .slide-4 span[style*="font-size: 1.4rem"] {
+    .slide-4 div[style*="padding: 0.8rem"] {
+        padding: 0.5rem !important;
+        max-width: 85% !important;
+    }
+    
+    .slide-4 img {
+        max-height: 40vh !important;
+        border-radius: 6px !important;
+    }
+    
+    .slide-4 div[style*="padding: 0.8rem 1.5rem"] {
+        padding: 0.6rem 1rem !important;
+    }
+    
+    .slide-4 p[style*="font-size: 1.1rem"] {
         font-size: 0.85rem !important;
-        line-height: 1.3 !important;
     }
     
-    /* Slide 5 - Видишь свой прогресс */
-    .slide-5 h2 {
-        font-size: 1.1rem !important;
-        margin-bottom: 0.6rem !important;
+    .slide-4 div[style*="padding: 1rem 1.5rem"] {
+        padding: 0.8rem 1rem !important;
     }
     
-    .slide-5 .content > div {
-        padding: 1rem !important;
+    .slide-4 p[style*="font-size: 1rem"] {
+        font-size: 0.75rem !important;
+        margin-bottom: 0.5rem !important;
     }
     
-    .slide-5 p[style*="font-size: 2rem"] {
+    .slide-4 p[style*="font-size: 0.9rem"] {
+        font-size: 0.7rem !important;
+    }
+    
+    /* Слайд 7: Поиск и фильтры */
+    .slide-7 h2 {
         font-size: 1.1rem !important;
         margin-bottom: 0.8rem !important;
     }
     
-    .slide-5 div[style*="height: 60px"] {
+    .slide-7 .content > div[style*="linear-gradient"] {
+        padding: 0.7rem !important;
+        margin-bottom: 0.7rem !important;
+    }
+    
+    .slide-7 div[style*="font-size: 1.6rem"] {
+        font-size: 1.1rem !important;
+        margin-bottom: 0.5rem !important;
+    }
+    
+    .slide-7 div[style*="font-size: 1.4rem"] {
+        font-size: 1rem !important;
+        margin-bottom: 0.6rem !important;
+    }
+    
+    .slide-7 div[style*="font-size: 1rem"] {
+        font-size: 0.75rem !important;
+        margin-bottom: 0.4rem !important;
+    }
+    
+    .slide-7 div[style*="padding: 0.6rem 1rem"] {
+        padding: 0.5rem 0.8rem !important;
+        font-size: 0.8rem !important;
+    }
+    
+    .slide-7 div[style*="padding: 0.5rem 1.2rem"] {
+        padding: 0.4rem 0.8rem !important;
+        font-size: 0.75rem !important;
+    }
+    
+    .slide-7 div[style*="gap: 0.6rem"] {
+        gap: 0.4rem !important;
+        margin-bottom: 0.6rem !important;
+    }
+    
+    /* Slide 5 - Возможности */
+    .slide-5 h2 {
+        font-size: 0.95rem !important;
+        margin-bottom: 0.8rem !important;
+    }
+    
+    .slide-5 div[style*="display: flex"] > div {
+        padding: 0.8rem !important;
+        gap: 0.8rem !important;
+    }
+    
+    .slide-5 span[style*="font-size: 1.4rem"] {
+        font-size: 0.85rem !important;
+        line-height: 1.3 !important;
+    }
+    
+    /* Slide 6 - Видишь свой прогресс */
+    .slide-6 h2 {
+        font-size: 1.1rem !important;
+        margin-bottom: 0.6rem !important;
+    }
+    
+    .slide-6 .content > div {
+        padding: 1rem !important;
+    }
+    
+    .slide-6 p[style*="font-size: 2rem"] {
+        font-size: 1.1rem !important;
+        margin-bottom: 0.8rem !important;
+    }
+    
+    .slide-6 div[style*="height: 60px"] {
         height: 40px !important;
     }
     
-    .slide-5 div[style*="font-size: 1.8rem"] {
+    .slide-6 div[style*="font-size: 1.8rem"] {
         font-size: 1rem !important;
     }
     
-    .slide-5 p[style*="font-size: 1.5rem"] {
+    .slide-6 p[style*="font-size: 1.5rem"] {
         font-size: 0.85rem !important;
         margin-top: 0.8rem !important;
     }
     
-    /* Slide 7 - Работает везде */
-    .slide-7 h2 {
+    /* Slide 8 - Работает везде */
+    .slide-8 h2 {
         font-size: 0.95rem !important;
         margin-bottom: 0.5rem !important;
     }
@@ -628,131 +676,131 @@ p {
         margin-bottom: 1rem !important;
     }
     
-    .slide-7 div[style*="display: flex"] > div {
+    .slide-8 div[style*="display: flex"] > div {
         padding: 0.8rem !important;
     }
     
-    .slide-7 div[style*="font-size: 1.4rem"] {
+    .slide-8 div[style*="font-size: 1.4rem"] {
         font-size: 0.9rem !important;
     }
     
-    .slide-7 img {
+    .slide-8 img {
         width: 35px !important;
         height: 35px !important;
     }
     
-    .slide-7 div[style*="padding: 1rem"] {
+    .slide-8 div[style*="padding: 1rem"] {
         padding: 0.7rem !important;
     }
     
-    /* Slide 8 - Главное — это просто */
-    .slide-8 h2 {
+    /* Slide 9 - Главное — это просто */
+    .slide-9 h2 {
         font-size: 0.95rem !important;
         margin-bottom: 0.8rem !important;
     }
     
-    .slide-8 div[style*="display: flex"] > div {
+    .slide-9 div[style*="display: flex"] > div {
         padding: 0.8rem 1rem !important;
         gap: 0.8rem !important;
     }
     
-    .slide-8 span[style*="font-size: 2.8rem"] {
+    .slide-9 span[style*="font-size: 2.8rem"] {
         font-size: 1.5rem !important;
     }
     
-    .slide-8 span[style*="font-size: 1.3rem"] {
+    .slide-9 span[style*="font-size: 1.3rem"] {
         font-size: 0.8rem !important;
         line-height: 1.3 !important;
     }
     
-    .slide-8 strong[style*="font-size: 1.5rem"] {
+    .slide-9 strong[style*="font-size: 1.5rem"] {
         font-size: 0.9rem !important;
     }
     
-    .slide-8 div[style*="font-size: 1.6rem"] {
+    .slide-9 div[style*="font-size: 1.6rem"] {
         font-size: 1rem !important;
     }
     
-    .slide-8 > .content > div[style*="padding: 1.2rem"] {
+    .slide-9 > .content > div[style*="padding: 1.2rem"] {
         padding: 0.8rem 1.5rem !important;
     }
     
-    /* Slide 9 - Благодарности */
-    .slide-9 h2 {
+    /* Slide 10 - Благодарности */
+    .slide-10 h2 {
         font-size: 1.2rem !important;
         margin-bottom: 0.6rem !important;
     }
     
-    .slide-9 .content > div[style*="margin-top: 2rem"] {
+    .slide-10 .content > div[style*="margin-top: 2rem"] {
         margin-top: 0.8rem !important;
         gap: 0.6rem !important;
     }
     
-    .slide-9 .feature {
+    .slide-10 .feature {
         padding: 0.6rem !important;
         gap: 0.6rem !important;
     }
     
-    .slide-9 .feature-icon {
+    .slide-10 .feature-icon {
         font-size: 1.5rem !important;
     }
     
-    .slide-9 div[style*="font-size: 1.5rem"] {
+    .slide-10 div[style*="font-size: 1.5rem"] {
         font-size: 0.85rem !important;
         margin-bottom: 0.2rem !important;
     }
     
-    .slide-9 div[style*="font-size: 1rem"] {
+    .slide-10 div[style*="font-size: 1rem"] {
         font-size: 0.7rem !important;
         line-height: 1.2 !important;
     }
     
-    .slide-9 img[src*="logo_"] {
+    .slide-10 img[src*="logo_"] {
         width: 35px !important;
         height: 35px !important;
         padding: 3px !important;
     }
     
-    .slide-9 div[style*="width: 80px"] {
+    .slide-10 div[style*="width: 80px"] {
         width: 50px !important;
         height: 50px !important;
     }
     
-    .slide-9 div[style*="width: 80px"] span {
+    .slide-10 div[style*="width: 80px"] span {
         font-size: 1.3rem !important;
     }
     
-    .slide-9 p[style*="font-size: 0.9rem"] {
+    .slide-10 p[style*="font-size: 0.9rem"] {
         font-size: 0.65rem !important;
     }
     
-    .slide-9 > .content > div[style*="gap: 2rem"] {
+    .slide-10 > .content > div[style*="gap: 2rem"] {
         gap: 0.8rem !important;
         margin-top: 0.8rem !important;
     }
     
-    /* Slide 10 - Спасибо за внимание */
-    .slide-10 h1 {
+    /* Slide 11 - Спасибо за внимание */
+    .slide-11 h1 {
         font-size: 1.5rem !important;
         margin-bottom: 1rem !important;
     }
     
-    .slide-10 div[style*="padding: 1.8rem"] {
+    .slide-11 div[style*="padding: 1.8rem"] {
         padding: 1rem !important;
         margin-bottom: 1rem !important;
     }
     
-    .slide-10 img[src*="qr_"] {
+    .slide-11 img[src*="qr_"] {
         width: 120px !important;
         height: 120px !important;
         padding: 8px !important;
     }
     
-    .slide-10 p[style*="font-size: 1.3rem"] {
+    .slide-11 p[style*="font-size: 1.3rem"] {
         font-size: 0.9rem !important;
     }
     
-    .slide-10 .welcome-text {
+    .slide-11 .welcome-text {
         font-size: 1rem !important;
         margin-top: 1.5rem !important;
     }
