@@ -394,8 +394,7 @@ p {
 
 .slide-11 { background: linear-gradient(135deg, #ee9ca7 0%, #ffdde1 100%); }
 
-.slide-12 { background: linear-gradient(135deg, #834d9b 0%, #d04ed6 100%); color: white; }
-.slide-12 h1, .slide-12 p, .slide-12 .welcome-text { color: white; }
+.slide-12 { background: linear-gradient(135deg, #e4c1f9 0%, #f9d5e5 100%); }
 
 /* Адаптация для мобильных устройств */
 @media (max-width: 768px) {
