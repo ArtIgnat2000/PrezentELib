@@ -394,7 +394,9 @@ p {
 
 .slide-11 { background: linear-gradient(135deg, #ee9ca7 0%, #ffdde1 100%); }
 
-.slide-12 { background: linear-gradient(135deg, #e4c1f9 0%, #f9d5e5 100%); }
+.slide-12 { background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%); }
+
+.slide-13 { background: linear-gradient(135deg, #e4c1f9 0%, #f9d5e5 100%); }
 
 /* Адаптация для мобильных устройств */
 @media (max-width: 768px) {
